@@ -2,6 +2,7 @@ import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 import Hero from '../src/components/Hero';
 import Social from '../src/components/Social';
+import Team from '../src/components/Team';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         </div>
       </div> */}
       <Social />
+      <Team />
       <Footer />
     </div>
   );
