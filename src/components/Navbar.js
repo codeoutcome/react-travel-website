@@ -8,7 +8,7 @@ const Navbar = () => {
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                            <img className="h-8 w-auto" src="https://via.placeholder.com/150" alt="" />
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -20,23 +20,25 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
-                        <ul className="flex space-x-4">
+                        <ul className="flex space-x-6">
                             <li>
-                                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Product</a>
+                                <a href="#" className="text-lg font-semibold leading-6 text-gray-900">Nav Item 1</a>
                             </li>
                             <li>
-                                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Features</a>
+                                <a href="#" className="text-lg font-semibold leading-6 text-gray-900">Nav Item 2</a>
                             </li>
                             <li>
-                                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
+                                <a href="#" className="text-lg font-semibold leading-6 text-gray-900">Nav Item 3</a>
                             </li>
                             <li>
-                                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Company</a>
+                                <a href="#" className="text-lg font-semibold leading-6 text-gray-900">Nav Item 4</a>
                             </li>
                         </ul>
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+                        <a href="#_" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-blue-500 rounded-2xl sm:w-auto sm:mb-0">
+                            Contact Us
+                        </a>
                     </div>
                 </nav>
             </div>
