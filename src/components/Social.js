@@ -2,7 +2,7 @@ import React from 'react';
 
 const Social = () => {
     return (
-      <section className="p-6 text-center md:p-10">
+      <section className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto w-full max-w-6xl">
           <div className="flex w-full flex-col md:flex-row">
             <div className="w-full p-5 text-center md:w-4/12 md:p-8">

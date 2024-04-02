@@ -2,14 +2,14 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <section class="pt-24 bg-white">
-            <div class="px-12 mx-auto max-w-7xl">
+        <section>
+            <div class="pt-32 pb-14 mx-auto max-w-screen-xl">
                 <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
                     <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
                         <span>Welcome to the</span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-blue-500 to-blue-900 lg:inline">AwardsEngine</span> <span>The <span class="underline underline-offset-8">Gold</span> Standard</span>
                     </h1>
                     <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
-                    Awards management systems, tailored <span class="font-extrabold">just for you</span>.
+                    Awards management, tailored <span class="font-extrabold">just for you</span>.
                     </p>
                     <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
                         <a href="#_" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-blue-500 rounded-2xl sm:w-auto sm:mb-0">

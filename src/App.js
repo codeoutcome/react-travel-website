@@ -5,6 +5,7 @@ import Social from '../src/components/Social';
 import Team from '../src/components/Team';
 import CustomerLogos from './components/CustomerLogos';
 import Showcase from './components/Showcase';
+import Stats from './components/Stats';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Social />
       <Showcase />
       <Team />
+      <Stats /> 
       <CustomerLogos />
       <Footer />
     </div>
